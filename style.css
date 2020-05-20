@@ -1,25 +1,22 @@
-/*
-Theme Name: WPstarter
+/* 
+Theme Name: Jdone 
+Theme URI: https://jdone.multimegagroup.com
+Description: Twenty Twenty Child Theme
+Author: José Doñe 
+Author url: https://jdone.multimegagroup.com
+Template: twentytwenty
 Version: 1.0
-Requires at least: 4.7
-Requires PHP: 5.2.4
-Description: Child theme
-Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
-Author: José Doñe
-Author URI: https://jdone.multimegagroup.com/
-Theme URI: https://wordpress.org/themes/twentytwenty/
-Template: TwentyTwenty
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/ 
+@import url('../twentytwenty/style.css');
 
-All files, unless otherwise stated, are released under the GNU General Public
-License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+body .entry-title {
+    color: #fff;
+}
 
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned
-with others.
-*/
+.header-footer-group, body:not(.overlay-header) #site-header .toggle, .menu-modal .toggle {
+    color: #ffffff;
+}
 
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
+.powered-by-wordpress { 
+    display: none; 
+}
